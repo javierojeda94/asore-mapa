@@ -1,0 +1,51 @@
+html, body, #content{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+span{
+	padding-left: 20px;
+	color: green;
+}
+
+#content{
+	visibility: hidden;
+}
+
+#map-canvas { 
+  height: 70%; 
+  width: 100%;
+}
+
+#data, #form{
+	float: left;
+	width: 40%;
+	padding: 0 5%;
+}
+
+#buttons{
+	text-align: center;
+}
+
+#name{
+	margin-bottom: 20px;
+	padding: 5px;
+	font-style: bold;
+}
+
+#submit{
+	background-color: #3bb3e0;
+	border: 0px;
+	color: white;
+	border-bottom: 5px solid #156785;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#submit:hover{
+	margin-top: 3px;
+	border-bottom: 2px solid #156785;
+}
