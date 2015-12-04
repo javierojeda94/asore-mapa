@@ -27,7 +27,7 @@ $mail->Subject  = "Mis coordenadas!";
 $mail->Body     = "Hola! Mi nombre es $name y me encuentro en las siguientes coordenadas:\nLatitud: $latitude\nLongitud: $longitude";
 $mail->WordWrap = 100;
 
-$mail->AddAddress("ojeda.javier94@gmail.com", "Javier Ojeda");
+$mail->AddAddress("alonso.orozco@asore.net", "Alonso Orozco");
 $status = $mail->Send();
 if(!$status) {
 	echo 'Algo ha pasado y no se pudo enviar el correo';
